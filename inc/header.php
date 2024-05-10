@@ -28,7 +28,7 @@ if (!isset($_COOKIE['language'])) {
     <title>Document</title>
 </head>
 <header>
-    <form class="w-50" action="<?= SITE_URL . '/inc/change-language.php' ?>" method="get">
+    <form class="w-50" action="<?= SITE_URL . '/change-language.php' ?>" method="get">
         <<select name="language" class="form-select " aria-label="Default select example">
             <option value="it" <?= $language === 'it' ? ' selected' : '' ?>>IT</option>
             <option value="en" <?= $language === 'en' ? ' selected' : '' ?>>EN</option>
